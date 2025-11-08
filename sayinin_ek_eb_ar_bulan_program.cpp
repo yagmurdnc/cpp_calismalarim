@@ -7,9 +7,9 @@ int main(){
     int i=1;
     cout<<"Lutfen"<<i<<". sayiyi giriniz.";
     cin>>sayi;
-    i++;
     if(sayi>-1){
-       sayi=enk;
+        enk=sayi;
+        i++;
        while (true)
        {
             cout<<"Lutfen"<<i+1<<". sayiyi giriniz.";
